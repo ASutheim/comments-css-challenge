@@ -13,3 +13,7 @@
   --white: hsl(0, 0%, 100%);
 }
 
+.comment-box {
+  margin: 15px;
+  padding: 15px;
+}
