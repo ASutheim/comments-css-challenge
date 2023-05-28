@@ -58,6 +58,18 @@ body {
   justify-content: space-between;
 }
 
+.username {
+  font-weight: bolder;
+}
+
+.comment-text {
+  color: var(--grayish-blue);
+}
+
+.reply-tag {
+  color: var(--moderate-blue);
+  font-weight: bolder;
+}
 .left-box {
   display: flex;
   justify-content: space-between;
