@@ -24,6 +24,7 @@ body {
   align-items: center;
   border-color: var(--very-light-gray);
   border-radius: 10px;
+  min-width: 700px;
   max-width: 700px;
   background-color: white;
 }
@@ -34,7 +35,7 @@ body {
   background-color: var(--light-gray);
   display: flex;
   flex-direction: column;
-  max-width: 25px;
+  min-width: 25px;
   min-height: 70px;
   align-items: center;
   justify-content: space-between;
@@ -80,6 +81,7 @@ body {
   color: white;
   padding: 3px;
   font-size: smaller;
+  border-radius: 5px;
 }
 .comment-time {
   color: var(--grayish-blue);
@@ -127,10 +129,48 @@ body {
   border: none;
   background-color: var(--white);
   color: var(--moderate-blue);
-  font-weight: bolder;
+  /* font-weight: bolder; */
+  font-family: "Rubik", sans-serif;
 }
 
 .edit-button:hover {
   color: var(--light-grayish-blue);
   cursor: pointer;
+}
+
+.comment-submit-box {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  border-color: var(--very-light-gray);
+  border-radius: 10px;
+  min-width: 800px;
+  max-width: 800px;
+  background-color: white;
+}
+
+.add-comment-box {
+  min-width: 500px;
+  padding: 10px;
+}
+
+.comment-input-field {
+  min-width: 500px;
+  min-height: 70px;
+  padding: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: "Rubik", sans-serif;
+}
+.submit-button {
+  display: flex;
+  background-color: var(--moderate-blue);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  flex-wrap: nowrap;
+  font-family: "Rubik", sans-serif;
 }
