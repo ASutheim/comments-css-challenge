@@ -72,8 +72,15 @@ body {
 }
 .username {
   font-weight: bolder;
+  color: var(--grayish-blue);
 }
 
+.you-tag {
+  background-color: var(--moderate-blue);
+  color: white;
+  padding: 3px;
+  font-size: smaller;
+}
 .comment-time {
   color: var(--grayish-blue);
 }
