@@ -14,7 +14,6 @@ Note that SVG images can be used just like any other image, eg:
 <img alt="edit" src="./images/icon-edit.svg" />
 ```
 
-
 ## Style Guide
 
 ### Active states
@@ -23,20 +22,19 @@ To see how various elements change style when you click/hover/interact with them
 
 For **base mode** buttons should have hover and active styles. Any interactivity (eg, clicking _Reply_ opens a form) is a **stretch goal**.
 
-
 ### Colors
 
 You can reference these colors in your CSS, eg:
 
 ```css
 .someElement {
-    color: hsl(238, 40%, 52%);
+  color: hsl(238, 40%, 52%);
 
-    /* or */
-    background-color: hsl(239, 57%, 85%);
+  /* or */
+  background-color: hsl(239, 57%, 85%);
 
-    /* or */
-    border: 1px solid hsl(211, 10%, 45%);
+  /* or */
+  border: 1px solid hsl(211, 10%, 45%);
 }
 ```
 
@@ -69,10 +67,9 @@ The font is already setup in your [index.html](./index.html). Example usage:
 
 ```css
 .someElement {
-    font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 ```
-
 
 ## Attribution
 
