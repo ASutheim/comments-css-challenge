@@ -147,30 +147,37 @@ body {
   min-width: 800px;
   max-width: 800px;
   background-color: white;
+  justify-content: space-around;
 }
 
 .add-comment-box {
+  display: flex;
   min-width: 500px;
   padding: 10px;
 }
 
 .comment-input-field {
-  min-width: 500px;
-  min-height: 70px;
-  padding: 15px;
-  align-items: flex-start;
-  justify-content: flex-start;
+  width: 550px;
+  height: 70px;
+  padding: 10px;
+  /* vertical-align: text-top; */
+}
+
+.comment-input-field::placeholder {
   font-family: "Rubik", sans-serif;
+  color: var(--grayish-blue);
 }
 .submit-button {
   display: flex;
   background-color: var(--moderate-blue);
   color: white;
+  margin-left: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
-  flex-wrap: nowrap;
   font-family: "Rubik", sans-serif;
+  max-height: 30px;
+  min-width: 50px;
 }
